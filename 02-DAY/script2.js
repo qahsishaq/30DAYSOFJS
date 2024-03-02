@@ -15,8 +15,8 @@ console.log(companies.split(" , ")); //  array form
 console.log(challenge.replace("JavaScript", "Python"));
 
 console.log(challenge.charAt(15));
-
 console.log(challenge.charCodeAt(11));
+console.log(Math.ceil(Math.random() * 50) + 50);
 
 console.log(challenge.indexOf("a"));
 let grammar =
