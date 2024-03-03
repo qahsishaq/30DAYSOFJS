@@ -4,8 +4,14 @@ console.log(now.getFullYear());
 console.log(now.getDate());
 console.log(now.getDay());
 console.log(now.getTime());
+let word1 = "python";
+let word2 = "jargon";
 
-// Date.now() == newDate.getTime() (now here is a special object)
+console.log(word1.length !== word2.length);
+console.log(4 > 3 || 10 < 12);
+console.log(4 > 3 || 10 > 12);
+
+// Date.now() == newDate.getTime() ('now' here is a special object)
 //EXERCISE 1
 
 let firstName = "Ishaq";
@@ -41,8 +47,6 @@ console.log(4 >= 3);
 console.log(4 <= 3);
 console.log(4 == 4);
 console.log(4 !== "4");
-let word1 = "python";
-let word2 = "jargon";
 console.log(word1.length !== word2.length);
 console.log(4 > 3 || 10 < 12);
 console.log(4 > 3 || 10 > 12);
@@ -142,7 +146,11 @@ console.log(`I am ${ageDiff} years older than you`);
 
 // 	console.log(`You have lived for ${numberOfSeconds} seconds`)
 
-	let nisin = new Date();
-	console.log(nisin.getFullYear()+'-',nisin.getMonth() , nisin.getDate(), nisin.getHours(), nisin.getMilliseconds())
-	
-
+let nisin = new Date();
+console.log(
+  nisin.getFullYear() + "-",
+  nisin.getMonth(),
+  nisin.getDate(),
+  nisin.getHours(),
+  nisin.getMilliseconds()
+);
